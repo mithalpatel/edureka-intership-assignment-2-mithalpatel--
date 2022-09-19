@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/zomato-1937646-1637644.png">
+        <link rel="stylesheet" href="./bootstrap.zomato.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <meta http-equiv=" X-UA-Compatible" content="IE-EDGE">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Zomato</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    </head>
+    <body>
+    <header>
+         <!--this contains image-->
+        <div class="header-image justify-content: center";>
+             <img src="C:\Users\Dell\Pictures\shutterstock.png" width="100%" height="500px"/>
+        </div>
+                 
+        <div><!--this div contains login button-->
+            <nav class="navbar">
+            <form class="container-fluid justify-content-end gap-2">
+                <button class="btn btn-outline-light" data-bs-toggle="model" data-bs-target="#loginmodal" type="button" style="border: 0;">
+                    Login
+                </button>
+                <button class="btn btn-outline-light" type="button">
+                    Create a new account
+                </button>
+            </form>
+            </nav>
+        </div>
+            
+              <!--this div contains logo--> 
+            <div class="logo">
+                <div class="header-logo bg-light rounded-circle text-center fw-bold text-danger " style=" font-size: 65px; height: 110px; width: 110px;">
+                 e!  
+                </div>
+            </div>
+
+            <div class="head"> 
+                <h1 class="text text-center text-light pt-4">Find the best restaurants, cafés, and bars</h1>
+            </div>
+        
+            <!-- dropdown-->
+            <div class="search-select-box text-center pt-2 mt-5 pb-4 ">
+                    
+                    <select data-live-serch="true" style="height: 54px; width: 300px" class=" text-secondary text-center  ">
+                        <option selected>Please type a location</option>
+                        <option>Sarjapur Road</option>
+                        <option>Bengaluru HSR Layout</option>
+                        <option>Bengaluru Kormangala</option>
+                        <option>Bengaluru Jay Nagar</option>
+                    </select>
+                
+              
+              <input class="search text-center text-secondary ms-3 mt-4 border-0" style="width: 336px; height: 54px; border-radius: 0%;"type="text" placeholder="Search for restaurants" id="restaurants" list="searchlocation" >
+               <i class="fa-solid fa-magnifying-glass text-secondary fs-5 position-relative" style="top: 3px; left: -321px;"></i>
+            </div>
+
+            <div class="restaurants ">
+                <p class="title fs-1 position-relative fw-bold mt-5 pt-4 ps-5 ms-3 font: normal normal bold 30px/46px 'Poppins'" style="color: #192F60;">
+                    Quick Searches
+                </p> 
+                 <h3 class="restaurent fs-4 position-relative mt-2 pt-1 ps-5 ms-3 font:normal normal normal 18px/27px 'Poppins'" style="color:#8C96AB;">
+                    Discover restaurants by type of meal
+                </h3>
+              </div>
+          
+           <!-- cards-->
+            <div class="d-flex flex-wrap mt-2 ms-3 me-3 ps-5 pe-5 mb-5 pb-5 justify-content-between" style="border-radius: 0%;">
+  <!--card 1-->       
+            <div class="card-1 d-flex flex-wrap-wrap mt-5  shadow bg-body "style="height: 160px; width:360px;">
+                <div class="card-image-1"style="height: 160px; width:360px;">
+                 <img src="C:\Users\Dell\Desktop\Zomato_files\breakfast.image.png" height="160px" width="160px" alt="Breakfast image">
+                   <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                     Breakfast
+                   </h4>
+                    <p class="card-text  font: normal normal normal 14px/21px Poppins;" style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                        Start your day with exclusive breakfast options
+                    </p>
+                </div>
+            </div>
+
+  <!--card 2-->
+           <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body "style="height: 160px; width:360px;">
+              <div class="card-image-1"style="height: 160px; width:360px;">
+                <img src="C:\Users\Dell\Desktop\Zomato_files\lunch.images.png" height="160px" width="160px" alt="Lunch image">
+                  <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                     Lunch
+                 </h4>
+                 <p class="card-text  font: normal normal normal 14px/21px Poppins;" style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                     Start your day with exclusive breakfast options
+                 </p>
+               </div>
+          </div>
+
+<!--card 3-->
+          <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body "style="height: 160px; width:360px;">
+              <div class="card-image-1"style="height: 160px; width:360px;">
+                <img src="C:\Users\Dell\Desktop\Zomato_files\snacks.images.png" height="160px" width="160px" alt="Snacks image">
+                <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                  Snacks
+                </h4>
+                <p class="card-text  font: normal normal normal 14px/21px Poppins;" style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                 Start your day with exclusive breakfast options
+                </p>
+              </div>
+          </div>
+                     
+  <!--card 4-->
+        <div class="card-1 d-flex flex-wrap-wrap mt-5  shadow bg-body "style="height: 160px; width:360px;">
+           <div class="card-image-1"style="height: 160px; width:360px;">
+             <img src="C:\Users\Dell\Desktop\Zomato_files\dinner.images.png" height="160px" width="160px" alt="Dinner image">
+              <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+               Dinner
+              </h4>
+              <p class="card-text  font: normal normal normal 14px/21px Poppins;" style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+               Start your day with exclusive breakfast options
+              </p>
+          </div>
+       </div>
+            
+  <!--card 5-->
+         <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body "style="height: 160px; width:360px;">
+            <div class="card-image-1"style="height: 160px; width:360px;">
+             <img src="C:\Users\Dell\Desktop\Zomato_files\drinks.images.png" height="160px" width="160px" alt="Drinks image">
+              <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                Drinks
+              </h4>
+              <p class="card-text  font: normal normal normal 14px/21px Poppins;" style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+               Start your day with exclusive breakfast options
+             </p>
+            </div>
+         </div>
+      <!--card 6-->
+            <div class="card-1 d-flex flex-wrap-wrap mt-5 shadow bg-body "style="height: 160px; width:360px;">
+               <div class="card-image-1"style="height: 160px; width:360px;">
+                  <img src="C:\Users\Dell\Desktop\Zomato_files\nightlife.images.png" height="160px" width="160px" alt="Nightlife image">
+                     <h4 class="card-title" style="text-align: left;margin-top: -37%; margin-left: 53%; color: #192F60;">
+                        Nightlife
+                     </h4>
+                  <p class="card-text  font: normal normal normal 14px/21px Poppins;" style="text-align: left; margin-top: 1%;  margin-left: 53%; width: 138px;height: 62px; color: #8C96AB; ">
+                    Start your day with exclusive breakfast options
+                  </p>
+             </div>
+         </div>
+           
+
+</div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</header> 
+    </html>  
+    
+
+        
+     
+   
